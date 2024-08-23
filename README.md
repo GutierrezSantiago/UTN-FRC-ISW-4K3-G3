@@ -58,11 +58,9 @@
 | `<NroLineaBase>`      | Es una secuencia que comienza con 1 y se incrementa en una unidad con cada nueva línea base                                                           |	
 
 ## Líneas Base
-Las líneas base seran identificarán con la siguiente etiqueta:
-LB-<NroLineaBase>
+Las líneas base se identificarán con la siguiente etiqueta: LB-<NroLineaBase>.
 
-La revisión de cambios se realizará el Miercoles posterior a un Parcial o entrega de Trabajo Práctico Evaluable, 
-y se procederá a la creación de una nueva Linea Base.
+La revisión de cambios se realizará el miércoles siguiente a la entrega de un parcial o de un trabajo práctico evaluable, y se procederá a la creación de una nueva línea base.
 |Línea Base|Fecha|Descripción|
 |----------|-----|-----------|
 
