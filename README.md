@@ -13,17 +13,17 @@
 
 ## Estructura del Repositorio
     .
-    ├── Bibliografía                # Libros y recursos de lectura provistos por la cátedra
+    ├── Bibliografía                
     │
     ├── Cátedra            # Información académica, horarios, clases grabadas, etc
     │
-    ├── Prácticos           # Trabajos Practicos Evaluables, No Evaluables y guías 
+    ├── Prácticos            
     │   ├── Evaluables              
-    │   ├── Guías                   # Guías de trabajos prácticos
+    │   ├── Guías                   
     │   ├── No_Evaluables
-    │   └── Templates               # Templates para parciales o para TPs
+    │   └── Templates               
     │
-    ├── Teóricos            # Filminas de clases y material adicional teórico
+    ├── Teóricos            
     │   ├── Filminas
     │   ├── Material_Complementario
     │   └── Trabajos_Conceptuales
@@ -42,7 +42,7 @@
 | `Trabajos Prácticos Evaluables`     | MP-Evaluable-TP`<NroTP>`-`<Nombre>`.`<Extension>`    | /Prácticos/Evaluables                   |
 | `Trabajos Prácticos No Evaluables`  | MP-No-Evaluable-TP`<NroTP>`-`<Nombre>`.`<Extension>` | /Prácticos/No_Evaluables                |
 | `Material Cátedra`                  | CA-`<Nombre>`.`<extension>`                          | /Cátedra                                |
-| `Trabajos Conceptuales`             | TC-`<NroTC>`-`<Nombre>`.`<Extension>`                | /Teóricos/Trabajos_Conceptuales         |
+| `Trabajos Conceptuales`             | MT-TC-`<NroTC>`-`<Nombre>`.`<Extension>`                | /Teóricos/Trabajos_Conceptuales         |
 | `Resumenes`                         | RES-`<NroParcial>`-`<Tema>`.pdf                      | /Resuménes                              |
 
 ## Referencias
