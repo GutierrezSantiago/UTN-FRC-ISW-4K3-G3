@@ -50,13 +50,13 @@
 
 | Siglas           | Significado                                                                                 |
 | ---------------- | ------------------------------------------------------------------------------------------- |
-| `<BI>`           | Es una abreviación de Bibliografía                                                          |
-| `<MT>`           | Es una abreviación de Material Teórico                                                      |
-| `<MP>`           | Es una abreviación de Material Práctico                                                     |
-| `<CA>`           | Es una abreviación de Cátedra                                                               |
-| `<RES>`          | Es una abreviación de Resúmenes                                                             |
-| `<TC>`           | Es una abreviación de Trabajos Conceptuales                                                 |
-| `<Nro>`          | Es una abreviación de Número                                                                |
+| `BI`           | Es una abreviación de Bibliografía                                                          |
+| `MT`           | Es una abreviación de Material Teórico                                                      |
+| `MP`           | Es una abreviación de Material Práctico                                                     |
+| `CA`           | Es una abreviación de Cátedra                                                               |
+| `RES`          | Es una abreviación de Resúmenes                                                             |
+| `TC`           | Es una abreviación de Trabajos Conceptuales                                                 |
+| `Nro`          | Es una abreviación de Número                                                                |
 | `<Nombre>`       | Nombre del archivo según como figura en la UV (libro, presentación, template, guía, etc).   |
 | `<Extension>`    | Extensión del archivo (pdf, zip, docx, etc)                                                 |
 | `<NroTP>`        | Número de trabajo práctico                                                                  |
