@@ -72,6 +72,7 @@
 Las líneas base se identificarán con la siguiente etiqueta: LB-<NroLineaBase>.
 
 La revisión de cambios se realizará el miércoles siguiente a la entrega de un parcial y se procederá a la creación de una nueva línea base.
-|Línea Base|Fecha|Descripción|
-| 1.0.0-LB | 02/10/2024 | Primera revision de cambios luego del primer parcial|
-| 2.0.0-LB | 30/10/2024 | Segunda revision de cambios luego del segundo parcial|
+| Línea Base | Fecha | Descripción |
+| --- | --- | --- |
+| LB-1.0.0 | 02/10/2024 | Primera revision de cambios luego del primer parcial |
+| LB-2.0.0 | 30/10/2024 | Segunda revision de cambios luego del segundo parcial |
