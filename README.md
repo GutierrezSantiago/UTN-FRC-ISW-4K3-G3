@@ -37,7 +37,7 @@
 | ---------------------------------- | ---------------------------------------------------- | --------------------------------- |
 | `Libros`                           | BI-`<Nombre>`.pdf                                    | /Bibliografía                     |
 | `Filminas`                         | MT-Filimina-Nro`<NroFilmina>`-`<Nombre>`.pdf         | /Teóricos/Filminas                |
-| `Recursos Adicionales`             | MT-Recurso-`<Nombre>`.pdf                            | /Teóricos/Material_Complementario |
+| `Material Complementario`          | MT-MC-`<Nombre>`.pdf                                 | /Teóricos/Material_Complementario |
 | `Templates para parciales`         | MP-Template-`<Nombre>`.`<Extension>`                 | /Prácticos/Templates              |
 | `Guía de Trabajos`                 | MP-Guia-`<Nombre>`.pdf                               | /Prácticos/Guías                  |
 | `Trabajos Prácticos Evaluables`    | MP-Evaluable-TP`<NroTP>`-`<Nombre>`.`<Extension>`    | /Prácticos/Evaluables             |
@@ -52,13 +52,14 @@
 | ---------------- | ------------------------------------------------------------------------------------------- |
 | `BI`           | Es una abreviación de Bibliografía                                                          |
 | `MT`           | Es una abreviación de Material Teórico                                                      |
+| `MC`           | Es una abreviación de Material Complementario                                               |
 | `MP`           | Es una abreviación de Material Práctico                                                     |
 | `CA`           | Es una abreviación de Cátedra                                                               |
 | `RES`          | Es una abreviación de Resúmenes                                                             |
 | `TC`           | Es una abreviación de Trabajos Conceptuales                                                 |
 | `Nro`          | Es una abreviación de Número                                                                |
 | `<Nombre>`       | Nombre del archivo según como figura en la UV (libro, presentación, template, guía, etc).   |
-| `<Extension>`    | Extensión del archivo (pdf, zip, docx, etc)                                                 |
+| `<Extension>`    | Extensión del archivo (pdf, zip, docx, xlsx, etc)                                                 |
 | `<NroTP>`        | Número de trabajo práctico                                                                  |
 | `<NroFilmina>`   | Número de cada filmina                                                                      |
 | `<NroTC>`        | Número de trabajo conceptual                                                                |
@@ -70,10 +71,7 @@
 
 Las líneas base se identificarán con la siguiente etiqueta: LB-<NroLineaBase>.
 
-La revisión de cambios se realizará el miércoles siguiente a la entrega de un parcial o de un trabajo práctico evaluable, y se procederá a la creación de una nueva línea base.
+La revisión de cambios se realizará el miércoles siguiente a la entrega de un parcial y se procederá a la creación de una nueva línea base.
 |Línea Base|Fecha|Descripción|
-|----------|-----|-----------|
-
-```
-
-```
+| 1.0.0-LB | 02/10/2024 | Primera revision de cambios luego del primer parcial|
+| 2.0.0-LB | 30/10/2024 | Segunda revision de cambios luego del segundo parcial|
