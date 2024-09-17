@@ -1,0 +1,26 @@
+.primary-button {
+  background-color: #00b4d8 !important;
+  border-radius: 8px;
+  width: 100%;
+  height: fit-content;
+  padding: 12px 40px;
+  color: #ffffff !important;
+  font-weight: 650;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+
+  transition: all 300ms ease;
+}
+
+.primary-button:hover {
+  background-color: #0077b6 !important;
+}
+
+@media screen and (max-width: 500px) {
+  .primary-button {
+    padding: 8px 12px;
+    font-weight: 500;
+  }
+}

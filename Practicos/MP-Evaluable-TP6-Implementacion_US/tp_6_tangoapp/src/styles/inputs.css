@@ -1,0 +1,24 @@
+.primary-input {
+  width: 100%;
+  border: 1px solid #00b4d8;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: all 300ms ease;
+}
+
+.primary-input:hover {
+  border: 1px solid #0077b6;
+}
+
+.primary-input:focus {
+  box-shadow: 3px 3px 5px 0px #00527e7c;
+  border: 1px solid #0077b6;
+  outline: none;
+}
+
+@media screen and (max-width: 500px) {
+  .primary-input {
+    padding: 7px 10px;
+  }
+}
