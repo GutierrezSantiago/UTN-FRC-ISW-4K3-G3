@@ -39,6 +39,7 @@ const PaymentModal = ({
         open={system.modals.success.show}
         onClose={actions.handleSucessModal}
         onClickButton={actions.handleSucessModal}
+        paymentNumber={system.modals.success.payNumber}
         textButton="Finalizar"
       >
         Pago registrado correctamente!

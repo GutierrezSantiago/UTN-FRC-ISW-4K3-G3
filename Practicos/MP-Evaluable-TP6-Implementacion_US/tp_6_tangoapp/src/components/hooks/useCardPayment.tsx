@@ -5,7 +5,7 @@ import { utils } from "../utils/utils";
 const useCardPayment = ({ budgetData, orderData }: ICardPayment) => {
   const [documentType, setDocumentType] = useState("dni");
   const [modals, setModals] = useState({
-    success: { show: false },
+    success: { show: false, payNumber: 0 },
     loading: { show: false },
     error: { show: false, message: "" },
   });
@@ -165,10 +165,13 @@ const useCardPayment = ({ budgetData, orderData }: ICardPayment) => {
             }
           }
 
+          const paymentNumber = actions.generatePaymentNumber();
+
           setModals({
             ...modals,
             success: {
               show: true,
+              payNumber: paymentNumber,
             },
             loading: { show: false },
           });
@@ -397,6 +400,9 @@ const useCardPayment = ({ budgetData, orderData }: ICardPayment) => {
     },
     handleSucessModal: () => {
       router.push("/order");
+    },
+    generatePaymentNumber: () => {
+      return Math.floor(100000 + Math.random() * 900000);
     },
   };
 

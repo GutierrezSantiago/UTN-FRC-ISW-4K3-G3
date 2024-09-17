@@ -10,6 +10,7 @@ const SuccessModal = ({
   children,
   textButton,
   onClickButton,
+  paymentNumber,
 }: ISuccessModal) => {
   return (
     <BasicModal size="sm" onClose={onClose} open={open}>
@@ -21,6 +22,10 @@ const SuccessModal = ({
         />
 
         {children}
+
+        {paymentNumber && (
+          <span className="font-semibold mt-4">{`N° de pago: ${paymentNumber}`}</span>
+        )}
 
         <div>
           <Button
@@ -44,4 +49,5 @@ interface ISuccessModal {
   children: React.ReactNode;
   textButton: string;
   onClickButton: () => void;
+  paymentNumber?: number;
 }
