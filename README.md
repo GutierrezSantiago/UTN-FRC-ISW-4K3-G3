@@ -1,3 +1,7 @@
+A semester-long repository maintained consistently as part of a Software Configuration Management (SCM) practice. Work was structured following the **Scrum** framework. Covers software engineering, quality assurance, and project deliverables.
+
+Includes a full-stack implementation of one User Story for **TangoApp**, a logistics web app: "As a load provider, I want to accept a quote to hire a transport service.". Test cases were designed using **Equivalence Partitioning** (black-box testing) across multiple user stories, and executed for the TangoApp US.
+
 ## Ingenieria y Calidad de Software - Grupo 3 - 4K3 - 2024
 
 ## Integrantes
